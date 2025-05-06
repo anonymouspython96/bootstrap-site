@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+#my-nav {
+    padding: 1rem;
+}
+
+.carousel-item img {
+    height: 50rem;
+    object-fit: cover;
+}
+
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption h3 {
+    font-size: 6rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+}
