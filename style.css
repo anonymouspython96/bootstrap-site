@@ -4,9 +4,27 @@
     padding: 0;
 }
 
+:root {
+    --color-first: #0F5FA6;
+    --color-second: #0A8CBF;
+    --color-third: #04B2D9;
+    --color-fourth: #05DBF2;
+    --color-fifth: #0D0D0D;
+    --color-default: #e9eeee;
+}
+
 /* nav */
 #my-nav {
     padding: 1rem;
+    background-color: var(--color-fifth);
+    color: var(--color-first);
+}
+
+.carousel-item h1,
+.carousel-item h2, 
+.carousel-item h3,
+.carousel-item p {
+    color: var(--color-fifth);
 }
 
 .carousel-item img {
@@ -22,4 +40,53 @@
 
 .carousel-caption p {
     font-size: 2rem;
+}
+
+#who-I-am {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+#card,
+#card-price-1,
+#card-price-2,
+#no-border-1,
+#no-border-2,
+#no-border-3,
+#no-border-4 {
+    border: none;
+}
+
+.slide-image-1,
+.slide-image-2 {
+    height: 30rem;
+    background-image: url("./img/slide.jpg");
+    background-size: cover;
+}
+
+#prices {
+    min-height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30rem;
+    gap: 5rem;
+}
+.flex {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.flex li a {
+    text-decoration: none;
 }
